@@ -49,11 +49,22 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    width: 8%;
+    width: 12%;
 }
 .logo > img{
     width: 100%;
-    border-radius: 50% 0;
+    border-radius: 20px 0;
+}
+.logo{
+    animation: dance 12s linear infinite;
+}
+@keyframes dance {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }
 .logo_footer {
     font-size: 1.5rem;
