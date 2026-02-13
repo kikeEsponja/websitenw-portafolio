@@ -367,6 +367,7 @@ section {
     border-radius: 12px;
     border: 1px solid rgba(59, 130, 246, 0.2);
     transition: all 0.3s ease;
+    height: 400px;
 }
 .skill-category:hover {
     transform: translateY(-5px);
@@ -383,6 +384,7 @@ section {
 }
 .skill-category img{
     width: 100%;
+    border-radius: 10px;
 }
 .skill-list {
     list-style: none;
